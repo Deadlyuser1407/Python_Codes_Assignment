@@ -1,0 +1,6 @@
+d = int(input("Enter days: "))
+h = int(input("Enter hours:"))
+m = int(input("Enter minutes: "))
+s = int(input("Enter seconds: "))
+ts = (d*24*60*60)+(h*60*60)+(m*60)+(s)
+print("Total seconds : ",ts)
